@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { GeistSans } from 'geist/font/sans'
 import localFont from 'next/font/local'
 import './globals.css'
 
@@ -22,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${blob.variable}`}>
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${blob.variable} ${GeistSans.variable}`}>
+      <body className={GeistSans.className}>{children}</body>
     </html>
   )
 }

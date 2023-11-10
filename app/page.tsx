@@ -60,7 +60,7 @@ export default async function Home() {
                 <div className="overflow-hidden rounded-md border-sky-800/50 border-4 bg-white">
                   <div className="flex flex-col divide-y text-sky-800">
                     {episodes.map((episode) => (
-                      <div className="flex justify-between items-center p-6">
+                      <div key={episode.episodeNumber} className="flex justify-between items-center p-6">
                         <div>
                           <p className="text-xl">{episode.title}</p>
                           <p className="font-mono text-sm">{episode.description}</p>

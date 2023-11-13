@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.rhap_button-clear,
+.rhap_main-controls-button,
+.rhap_play-pause-button,
+.rhap_progress-container,
+.rhap_time,
+.rhap_total-time,
+.rhap_progress-bar,
+.rhap_progress-bar-show-download {
+  color: rgb(7 89 133) !important;
+}
+
+.rhap_progress-filled,
+.rhap_progress-indicator,
+.rhap_download-progress,
+.rhap_volume-bar,
+.rhap_volume-indicator {
+  background-color: rgb(7 89 133) !important;
+  box-shadow: none !important;
+}
